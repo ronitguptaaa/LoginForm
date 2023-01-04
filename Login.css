@@ -1,5 +1,6 @@
-*{
-    background-color: rgb(219, 217, 217);
+body{
+    background:rgb(219, 217, 217); 
+    font-family: 'Merriweather', serif;
 }
 .main{
     display: flex;
@@ -9,4 +10,18 @@
     margin-left: 40%;
     margin-top: 60px;
     width: 50%;
+}
+.image_text{
+    top: 7%;
+    left: 20%;
+    font-size: 35px;
+    position: absolute; 
+    
+}
+
+.image_container .image_text h1{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    
 }
